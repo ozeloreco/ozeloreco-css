@@ -1,0 +1,189 @@
+body{
+    background-color: white ; 
+   
+}
+
+h1{
+   background-color: blue;
+    color: white;
+    text-align: center;
+font-size: 6rem;
+/* 1rem= 16px*/
+border: 1rem dotted goldenrod;
+/* border types includes, solid, dashed,dotted, ridge */
+padding: 5rem;
+/*padding types includes padding top, padding-botom, padding-left/right*/
+font-family: cursive;
+border-radius: 3rem;
+
+}
+
+img{
+    width: 10%;
+    height: 30rem;
+}
+.image1{
+    width: 30%;
+    height:30rem ;
+
+}
+
+.image2{
+    width: 50%;
+    height: 50rem;
+
+}
+
+.image3{
+    width: 45%;
+    height: 53rem;
+
+}
+.google{
+    text-align: center;
+}
+.google span{
+    font-size: 6rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span.blue{
+    color: blue;
+}
+span.gold{
+    color: gold;
+}
+span.red{
+    color: red;
+}
+span.blue{
+    color: blue;
+}
+span.green{
+    color: green;
+}
+span.red{
+    color: red;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    /* flex direction includes row, column, row-reverse and column-reverse */
+    justify-content: space-between;
+/* justify-contents includes; center, start, end, space-around, space-between and space-evenly / */
+
+}
+.box{
+    background-color: red;
+    color: white;
+    padding: 4rem;
+    margin: 1px;
+}
+.rgb{
+
+    display: flex;
+
+}
+
+.rgb div{
+padding: 5rem;
+border: 1px solid gainsboro;
+    
+}
+    
+.rgb .red{
+    background-color: red;
+    flex: 1;
+}
+.rgb .green{
+    background-color: green;
+    flex: 1;
+}
+.rgb .blue{
+    background-color: blue;
+    flex: 1;
+}
+
+@media  (max-width: 768px) {
+
+
+h1{
+    font-size: 1.5rem;
+}
+.boxes{
+    flex-direction: column;
+    font-size: 1rem;
+}
+.rgb{
+    flex-direction: column;
+
+}
+}
+ol{
+    background-color: rgb(163, 101, 101);
+    font-size: 1.5rem;
+    text-align: start;
+    flex-direction: row;
+    flex: 1;
+    border: 1rem dotted rgb(9, 4, 5);
+     border-radius: 2rem;
+}
+dl{
+    background-color: blueviolet;
+    flex-direction: column;
+    border: 15px solid gainsboro;
+    border-radius: 12px ;
+}
+.city{
+    background-color: rgb(136, 71, 61);
+    
+}
+
+.services img{
+    justify-content: space-between;
+    float: top;
+    height: 11rem;
+    width: 30%;
+    object-fit: cover;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(161, 119, 200);
+    color: gainsboro;
+}
+.services h3{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.services p{
+    font-size: 20px;
+    background-color: rgb(201, 161, 239);
+    color: rgb(4, 4, 13);
+    justify-content: space-between;
+    
+}
+.services1{
+    justify-content: space-between;
+}
+i{
+    justify-content: space-around;
+    background-color: bisque;
+    border-radius: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+body{
+    background-image: url(business\ 2.webp);
+    background-repeat:repeat-x;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: content-box;
+    background-origin: padding-box;
+}
+.services1 img{
+    width: ;
+}
